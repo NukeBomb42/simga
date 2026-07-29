@@ -1,0 +1,1242 @@
+// ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠿⠿⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+// ⣿⣿⣿⣿⣿⣿⣿⣿⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+// ⣿⣿⣿⣿⣿⣿⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢺⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+// ⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠆⠜⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+// ⣿⣿⣿⣿⠿⠿⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⣿⣿⣿⣿⣿
+// ⣿⣿⡏⠁⠀⠀⠀⠀⠀⣀⣠⣤⣤⣶⣶⣶⣶⣶⣦⣤⡄⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿
+// ⣿⣿⣷⣄⠀⠀⠀⢠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⡧⠇⢀⣤⣶⣿⣿⣿⣿⣿⣿⣿
+// ⣿⣿⣿⣿⣿⣿⣾⣮⣭⣿⡻⣽⣒⠀⣤⣜⣭⠐⢐⣒⠢⢰⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿
+// ⣿⣿⣿⣿⣿⣿⣿⣏⣿⣿⣿⣿⣿⣿⡟⣾⣿⠂⢈⢿⣷⣞⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿
+// ⣿⣿⣿⣿⣿⣿⣿⣿⣽⣿⣿⣷⣶⣾⡿⠿⣿⠗⠈⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+// ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠻⠋⠉⠑⠀⠀⢘⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+// ⣿⣿⣿⣿⣿⣿⣿⡿⠟⢹⣿⣿⡇⢀⣶⣶⠴⠶⠀⠀⢽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+// ⣿⣿⣿⣿⣿⣿⡿⠀⠀⢸⣿⣿⠀⠀⠣⠀⠀⠀⠀⠀⡟⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+// ⣿⣿⣿⡿⠟⠋⠀⠀⠀⠀⠹⣿⣧⣀⠀⠀⠀⠀⡀⣴⠁⢘⡙⢿⣿⣿⣿⣿⣿⣿⣿⣿
+// ⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⢿⠗⠂⠄⠀⣴⡟⠀⠀⡃⠀⠉⠉⠟⡿⣿⣿⣿⣿
+//  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢷⠾⠛⠂⢹⠀⠀⠀⢡⠀⠀⠀⠀⠀⠙⠛⠿⢿
+// what are you doing here you hooligan
+
+"MEINMEINMEIN"
+{
+	"items"
+	{
+		"30000"
+		{
+			"name"					"tf_weapon_garand"													"item_class"				"tf_weapon_shotgun"
+			"item_slot"					"secondary"
+			"propername"				"1"												
+			"item_name_color"			"204 204 250 255"
+			"item_quality"				"unique"
+			"item_name"					"Garand Slam"
+			"item_type_name"			"Pump-Action Rifle"														"item_description"			"Ping!"
+			"item_logname"				"garand"
+			"item_iconname"				"garand"
+			"image_inventory"			"backpack/garand_shotgun/c_garand_shotgun"
+			"model_player"				"models/weapons/c_models/c_garand_shotgun/c_garand_shotgun.mdl"
+			"model_world"				"models/weapons/c_models/c_garand_shotgun/c_garand_shotgun.mdl"
+			"attach_to_hands"			"1"
+			"used_by_classes"
+			{
+				"soldier"	"secondary"
+				"pyro"		"secondary"
+				"heavy"		"secondary"
+				"engineer"	"primary"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 0 -11"
+			}
+			"attributes"																				{
+				"damage bonus"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"				"5"
+				}
+				"weapon spread bonus"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"				"0"
+				}
+				"clip size bonus"						
+				{
+					"attribute_class"	"mult_clipsize"
+					"value"				"1.30"
+				}
+				"fire rate bonus"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"			"0.7"
+				}
+				"bullets per shot penalty"
+				{
+					"attribute_class" 	"mult_bullets_per_shot"
+					"value" 			"0.1"
+				}
+
+			}
+			"visuals"
+			{
+				"sound_single_shot"		"Weapon_Garand.Single"
+				"sound_burst"			"Weapon_Garand.SingleCrit"
+			}
+			"mouse_pressed_sound"		"#ui/item_medium_gun_pickup.wav"
+			"drop_sound"				"#ui/item_medium_gun_drop.wav"
+		}
+		"30001"
+		{
+			"name"					"tf_weapon_tehblasta"													"item_class"				"tf_weapon_shotgun"
+			"item_slot"					"secondary"
+			"anim_slot"					"secondary"							
+			"propername"				"1"												
+			"item_name_color"			"204 204 250 255"
+			"item_quality"				"unique"
+			"item_name"				"Warfare Enforcer"
+			"item_type_name"			"Shotgun"														"item_description"			"War is a Force of Nature, son!
+ Wait a minute..."
+			"item_logname"				"tehblasta"
+			"item_iconname"				"tehblasta"
+			"image_inventory"				"backpack/tehblasta/w_tehblasta"
+			"model_player"				"models/weapons/c_models/c_tehblasta/c_tehblasta.mdl"
+			"extra_wearable"			"models/player/items/peabrains_pouches/peabrains_pouches.mdl"
+			"model_world"				"models/weapons/c_models/c_tehblasta/c_tehblasta.mdl"
+			"attach_to_hands"			"1"
+			"used_by_classes"
+			{
+				"soldier"					"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 0 -11"
+			}
+			"attributes"																				{
+				"weapon enemy knockback mod mult hidden"
+				{
+					"attribute_class"	"weapon_enemy_knockback_mod"
+					"value"			"0.1"
+				}
+				"DISPLAY close range damage bonus"
+				{
+					"attribute_class"	"display_close_range_damage_bonus"
+					"value"			"1.0"
+				}
+				"DISPLAY knockback enemies"
+				{
+					"attribute_class"	"display_knockback_enemies"
+					"value"			"1.0"
+				}
+				"custom rampup"
+				{
+					"attribute_class"	"mod_custom_rampup"
+					"value"			"1.75"
+				}
+				"spread penalty"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"				"1.5"
+				}
+				"hidden separator"
+				{
+					"attribute_class"	"hidden_separator"
+					"value"			"1"	
+				}
+				"scattergun has knockback"
+				{
+					"attribute_class"	"set_scattergun_has_knockback"
+					"value"			"1"
+				}
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"grenades"			"1"
+				}
+				"sound_single_shot"		"Weapon_TehBlasta.Single"
+				"sound_burst"			"Weapon_TehBlasta.SingleCrit"
+			}
+			"mouse_pressed_sound"		"#ui/item_medium_gun_pickup.wav"
+			"drop_sound"				"#ui/item_medium_gun_drop.wav"
+		}	
+		"30002"
+		{
+			"name"	"The Freedom Staff"
+			"item_class"	"saxxy"
+			"prefab"	"weapon_melee_allclass"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Staff"
+			"item_name"	"#TF_TW_Staff"
+			"item_description"	"Since America was founded over ten thousand years ago, the noble eagle has been its symbol of freedom."
+			"propername"	"1"
+			"item_slot"	"melee"
+			"item_quality"	"unique"
+			"attach_to_hands"	"1"
+			"item_logname"	"freedom_staff"
+			"item_iconname"	"freedom_staff"
+			"image_inventory"	"backpack/workshop_partner/weapons/c_models/c_tw_eagle/c_tw_eagle"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"		
+			"model_player"	"models/workshop_partner/weapons/c_models/c_tw_eagle/c_tw_eagle.mdl"
+			"anim_slot" "MELEE_ALLCLASS"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+			"taunt"
+			{
+				"custom_taunt_scene_per_class"
+				{
+					"soldier"	"scenes/player/soldier/low/taunt_coffee.vcd"
+				}
+				"custom_taunt_prop_per_class"
+				{
+					"soldier"	"models/player/items/taunts/wupass_mug/wupass_mug.mdl"
+				}
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"20 0 -10"
+				"inspect_viewmodel_offset"				"5 0 -18"				
+			}
+			"attributes"
+			{
+				"crits vs class"
+				{
+					"attribute_class"	"crit_vs_class"
+					"value"			"32"
+				}
+				"DISPLAY anti commie"
+				{
+					"attribute_class"	"display_anti_commie"
+					"value"			"1"
+				}
+				"mult dmg crit multiplier"
+				{
+					"attribute_class"	"mult_dmg_crit_multiplier"
+					"value"				"1.335"
+				}
+				"damage bonus hidden"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"			"0.75"
+				}
+				"DISPLAY non crit damage"
+				{
+					"attribute_class"	"display_non_crit_damage"
+					"value"			"1"
+				}
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"			"0"
+				}
+			}
+			"visuals"
+			{
+				"sound_melee_hit_world"	"Weapon_Machete.HitWorld"
+				"sound_melee_miss"	"Weapon_Machete.Miss"
+				"sound_melee_hit"	"Weapon_Machete.HitFlesh"
+				"sound_burst"		"Weapon_Machete.MissCrit"
+			}
+			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
+			"drop_sound"		"ui/item_wood_pole_drop.wav"
+		}
+		"30003"																					{
+			"name"						"tf_weapon_airplane"
+			"item_class"				"tf_weapon_minigun"
+			"item_slot"					"primary"
+			"anim_slot"					"primary"											
+			"item_name_color"			"204 204 250 255"
+			"item_quality"				"rarity3"
+			"item_name"					"Runaway Russian"													"item_type_name"			"Airplane Engine"
+			"item_description"			"'Heavy is too fat to rocket jump.
+But, I have solution!'"
+			"item_logname"				"airplane"
+			"item_iconname"				"airplane"
+			"image_inventory"			"backpack\weapons\c_models\c_propeller_gun\c_propeller_gun"
+			"model_world"				"models\weapons\c_models\c_propeller_gun\c_propeller_gun.mdl"
+			"model_player"				"models\weapons\c_models\c_propeller_gun\c_propeller_gun.mdl"
+			"attach_to_hands"			"1"
+			"used_by_classes"
+			{
+				"Heavy"					"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 0 -9"
+			}
+			"attributes"
+			{
+				"apply self knockback hidden"
+				{
+					"attribute_class"	"apply_self_knockback"
+					"value"				"-100"
+				}
+				"self knockback affected by damage boost modifier"										
+				{
+					"attribute_class"	"self_knockback_damage_boost_modifier"
+					"value"			"1"
+				}
+				"airplane pro"
+				{
+					"attribute_class"	"minigun_jump_while_revved"
+					"value"				"1"
+				}
+				"boots falling stomp"
+				{
+					"attribute_class"	"boots_falling_stomp"
+					"value"				"1"
+				}
+				"maxammo primary increased"
+				{
+					"attribute_class"	"mult_maxammo_primary"
+					"value"				"1.5"
+				}			
+				"bullets per shot penalty"
+				{
+					"attribute_class"	"mult_bullets_per_shot"
+					"value"			"0.25"
+				}
+			}
+			"visuals"
+			{
+				"sound_empty"			"Weapon_Aircraft_Minigun.Spin"
+				"sound_double_shot"		"Weapon_Aircraft_Minigun.Fire"
+				"sound_burst"			"Weapon_Aircraft_Minigun.Critfire"
+				"sound_single_shot"		"Weapon_Aircraft_Minigun.Singlefire"
+				"sound_special1"		"Weapon_Aircraft_Minigun.WindUp"
+				"sound_special2"		"Weapon_Aircraft_Minigun.WindDown"
+				"sound_special3"		"Weapon_Aircraft_Minigun.Spin"
+			}
+			"mouse_pressed_sound"		"#ui/item_heavy_gun_pickup.wav"
+			"drop_sound"				"#ui/item_heavy_gun_drop.wav"
+		}
+		"30004"
+		{
+			"name"					"tf_weapon_specialist"														"item_class"				"tf_weapon_scattergun"
+			"item_slot"					"primary"
+			"anim_slot"					"primary"							
+			"propername"				"1"												
+			"item_name_color"			"204 204 250 255"
+			"item_quality"				"unique"
+			"item_name"				"Specialist"
+			"item_type_name"			"Scattergun"															"item_description"			"A special gun for a very special boy."
+			"item_logname"				"specialist"
+			"item_iconname"				"specialist"
+         		"image_inventory"           "backpack\weapons\c_models\c_specialist\c_specialist_ef"
+         		"model_world"               "models\weapons\evenfall_redux\specialist\c_models\c_specialist_scattergun_ef.mdl"
+         		"model_player"              "models\weapons\evenfall_redux\specialist\v_models\v_specialist_scattergun_ef.mdl"
+			"attach_to_hands"			"1"
+			"used_by_classes"
+			{
+				"scout"					"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 0 -11"
+			}
+			"attributes"																				{
+				"provide on active"
+				{
+					"attribute_class"	"provide_on_active"
+					"value"			"1"
+				}
+				"increase player capture value"
+				{
+					"attribute_class"	"add_player_capturevalue"
+					"value"			"1"
+				}
+				"minicrit on objective"
+				{
+					"attribute_class"	"mini_crit_on_objectives"
+					"value"			"1"
+				}
+				"weapon spread bonus"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"			"0.85"
+				}
+				"no djump"
+				{
+					"attribute_class"	"air_dash_count"
+					"value"			"-0.5"
+				}
+			}
+			"visuals"
+			{
+				"sound_single_shot"		"Weapon_Specialist_Scattergun.Single"
+				"sound_burst"			"Weapon_Specialist_Scattergun.SingleCrit"
+			}
+			"mouse_pressed_sound"		"#ui/item_medium_gun_pickup.wav"
+			"drop_sound"				"#ui/item_medium_gun_drop.wav"
+		}		
+		"30005"
+		{
+			"name"					"tf_jingle_jangle"
+			"item_class"				"tf_wearable"
+			"item_slot"				"secondary"
+			"anim_slot"				"FORCE_NOT_USED"							
+			"propername"				"1"												
+			"item_name_color"			"204 204 250 255"
+			"item_quality"				"unique"
+			"item_name"				"High Noon Heels"
+			"item_type_name"			"Boots"
+			"item_description"			"I've got spurs that jingle jangle jingle!"
+			"item_logname"				"spurs"
+         		"image_inventory"           "backpack\workshop\player\items\all_class\cc_summer2015_support_spurs\cc_summer2015_support_spurs"
+         		"model_player"              "models\workshop\player\items\all_class\cc_summer2015_support_spurs\cc_summer2015_support_spurs_engineer.mdl"
+			"equip_region"	"feet"
+			"act_as_wearable" "1"
+			"used_by_classes"
+			{
+				"engineer"					"1"
+			}
+			"static_attrs"
+			{
+			}
+			"attributes"																				{
+				"move speed bonus"
+				{
+					"attribute_class"	"mult_player_movespeed"
+					"value"			"1.1"
+				}
+				"increased jump height"
+				{
+					"attribute_class"	"mod_jump_height"
+					"value"			"1.5"
+				}
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"shoes"			"1"
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 			"ui/item_hat_drop.wav"
+		}
+		"30006"
+		{
+			"name"					"tf_weapon_tankgun"														"item_class"				"tf_weapon_shotgun"
+			"item_slot"					"secondary"
+			"anim_slot"					"secondary"
+			"equip_region"				"heavy_bullets"							
+			"propername"				"1"												
+			"item_name_color"			"204 204 250 255"
+			"item_quality"				"unique"
+			"item_name"				"Bear Blaster"
+			"item_type_name"			"Shotgun"															"item_description"			"Heavy use this to hunt bears in Siberian wilderness. Mila has not failed me yet."
+			"item_logname"				"tankgun"
+			"item_iconname"				"tankgun"
+			"attach_to_hands"			"1"
+			"model_player"		"models\weapons\c_models\c_tankshotgun\c_tankshotgun.mdl"
+			"model_world"		"models\weapons\c_models\c_tankshotgun\c_tankshotgun.mdl"
+			"image_inventory"		"backpack/weapons/c_models/c_tankgun/c_tankgun"
+			"used_by_classes"
+			{
+				"heavy"					"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 0 -11"
+			}
+			"attributes"																				{
+				"minicritboost on kill"
+				{
+					"attribute_class"	"add_onkill_minicritboost_time"
+					"value"			"5"
+				}
+				"clip size bonus"
+				{
+					"attribute_class"	"mult_clipsize"
+					"value"			"1.5"
+				}
+				"mult_player_movespeed_active"
+				{
+					"attribute_class"	"mult_player_movespeed_active"
+					"value"			"1.10"
+				}
+				"maxammo primary reduced"
+				{
+					"attribute_class"	"mult_maxammo_primary"
+					"value"			"0.25"
+				}
+			}
+			"visuals"
+			{
+				"sound_single_shot"		"Weapon_Tankgun.Single"
+				"sound_burst"			"Weapon_Tankgun.SingleCrit"
+			}
+			"mouse_pressed_sound"		"#ui/item_medium_gun_pickup.wav"
+			"drop_sound"				"#ui/item_medium_gun_drop.wav"
+		}
+		"30007"
+		{
+			"name"					"tf_weapon_lakeside"														"item_class"				"tf_weapon_grenadelauncher"
+			"item_slot"					"primary"
+			"anim_slot"					"secondary"						
+			"propername"				"1"												
+			"item_name_color"			"204 204 250 255"
+			"item_quality"				"unique"
+			"item_name"				"Lakeside Pride"
+			"item_type_name"			"Grenade Launcher"														"item_description"			"Pa-pow!"
+			"item_logname"				"lakeside"
+			"item_iconname"				"lakeside"
+			"attach_to_hands"			"1"
+			"model_player"		"models\weapons\c_models\c_lakeshot\c_lakeshot.mdl"
+			"model_world"		"models\weapons\c_models\c_lakeshot\c_lakeshot.mdl"
+			"image_inventory"		"backpack/weapons/c_models/c_lakeside/c_lakeside"
+			"used_by_classes"
+			{
+				"soldier"				"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 0 -11"
+			}
+			"attributes"																				{
+				"lakeside pro"
+				{
+					"attribute_class"	"set_detonate_mode"
+					"value"				"3"
+				}
+				"grenade no spin"
+				{
+					"attribute_class"	"grenade_no_spin"
+					"value"			"1"
+				}
+				"Blast radius decreased"
+				{
+					"attribute_class"	"mult_explosion_radius"
+					"value"				"0.5"
+				}
+			}
+			"visuals"
+			{
+				"sound_single_shot"		"Weapon_Lakeside.Single"
+				"sound_burst"			"Weapon_Lakeside.SingleCrit"
+			}
+			"mouse_pressed_sound"		"#ui/item_medium_gun_pickup.wav"
+			"drop_sound"				"#ui/item_medium_gun_drop.wav"
+		}
+		"30008"
+		{
+			"name"					"tf_weapon_medishot"
+			"item_class"				"TF2C_Weapon_HealLauncher"
+			"item_slot"				"secondary"
+			"anim_slot"				"primary"
+			"propername"				"1"												
+			"item_name_color"			"204 204 250 255"
+			"item_quality"				"unique"
+			"bots_cant_use"				"1"
+			"item_name"				"Emergency Doom"
+//						Also known as the eargesplitten loudenboomer 9000... If I could fix the hit sounds, I would.
+			"item_type_name"			"Syringe Shotgun"														"item_description"			"'Ze healing is not as rewarding as ze hurting...'"
+			"item_logname"				"medicshotgun"
+			"item_iconname"				"medicshotgun"
+			"image_inventory"			"backpack/weapons/c_models/c_medicshotgun/c_medicshotgun"
+			"model_player"				"models/weapons/c_models/c_medicshotgun/c_medicshotgun.mdl"
+			"model_world"				"models/weapons/c_models/c_medicshotgun/c_medicshotgun.mdl"
+			"attach_to_hands"			"1"
+			"used_by_classes"
+			{
+				"medic"		"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 0 -11"
+			}
+			"attributes"																				{
+				"med shot pro"
+				{
+					"attribute_class"	"med_shot_pro"
+					"value"			"1"
+				}
+				"drop team health pack on kill"
+				{
+					"attribute_class"	"drop_team_health_pack_on_kill"
+					"value"			"1"
+				}
+				"med shot con"
+				{
+					"attribute_class"	"med_shot_con"
+					"value"			"1"
+				}
+// ts jank af
+				"hidden separator"
+				{
+					"attribute_class"	"hidden_separator"
+					"value"			"1"
+				}
+				"add uber charge on hit"
+				{
+					"attribute_class"	"add_onhit_ubercharge"
+					"value"			"0.01"
+				}
+				"override projectile type"
+				{
+					"attribute_class"	"override_projectile_type"
+					"value"			"11"
+				}
+				"projectile scale increased"
+				{
+					"attribute_class"	"mult_projectile_scale"
+					"value"			"0.9"
+				}
+				"damage bonus"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"			"0.3"
+				}
+				"fire rate bonus"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"			"0.7"
+				}
+				"clip size bonus"
+				{
+					"attribute_class"	"mult_clipsize"
+					"value"			"1.25"
+				}
+				"Projectile speed increased"
+				{
+					"attribute_class"	"mult_projectile_speed"
+					"value"				"2"
+				}
+				"custom rampup"
+				{
+					"attribute_class"	"mod_custom_rampup"
+					"value"			"3"
+				}
+				"projectile spread angle penalty"
+				{
+					"attribute_class"	"projectile_spread_angle"
+					"value"			"3"
+				}
+				"mod projectiles per shot"
+				{
+					"attribute_class"	"mod_projectiles_per_shot"
+					"value"			"3"
+				}
+				"dmg penalty vs players"
+				{
+					"attribute_class"	"mult_dmg_vs_players"
+					"value"			"1.3"
+				}
+				"dmg bonus vs buildings"
+				{
+					"attribute_class"	"mult_dmg_vs_buildings"
+					"value"			"2"
+				}
+				"punch angle mod mult hidden"
+				{
+					"attribute_class"	"punch_angle_mod"
+					"value"			"5"
+				}
+				"mod ubercharge cond"
+				{
+					"attribute_class"	"mod_ubercharge_cond"
+					"value"			"33"
+				}
+				"mult dmg crit multiplier"
+				{
+					"attribute_class"	"mult_dmg_crit_multiplier"
+					"value"				"2.5"
+				}
+			}
+			"visuals"
+			{
+				"sound_single_shot"		"Weapon_Medicshotgun.Single"
+				"sound_burst"			"Weapon_Medicshotgun.SingleCrit"
+			}
+			"mouse_pressed_sound"		"#ui/item_medium_gun_pickup.wav"
+			"drop_sound"				"#ui/item_medium_gun_drop.wav"
+		}
+		"30009"
+		{
+			"name"					"tf_weapon_gravedigger_shotgun"
+			"item_class"				"tf_weapon_shotgun"
+			"item_slot"				"secondary"
+			"show_in_armory"			"1"
+			"bots_cant_use"				"1"
+			"propername"				"1"												
+			"item_name_color"			"204 204 250 255"
+			"item_quality"				"unique"
+			"item_name"					"Apocalypta"
+			"item_type_name"			"Shotgun"
+			"item_description"			"This weapon will carry you through the apocalypse just as well as the battlefield."
+			"item_logname"				"gravedigger"
+			"item_iconname"				"gravedigger"
+			"image_inventory"			"backpack/weapons/c_models/c_gravedigger_shotgun/c_gravedigger_shotgun"
+			"model_world"				"models/weapons/w_models/w_gravedigger_shotgun/w_gravedigger_shotgun.mdl"
+			"model_player"				"models/weapons/v_models/v_gravedigger_shotgun/v_gravedigger_shotgun_soldier.mdl"
+			"attach_to_hands"			"2"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+				"heavy"		"1"
+				"pyro"		"1"
+				"engineer"	"primary"
+			}
+			"model_player_per_class"
+			{
+				"basename"				"models/weapons/v_models/v_gravedigger_shotgun/v_gravedigger_shotgun_%s.mdl"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 0 -11"
+			}
+			"attributes"																				{
+				"apoc pro"
+				{
+					"attribute_class"	"mult_falloff_distance"
+					"value"			"0.35"
+				}
+				"mult_spread_scales_consecutive"
+				{
+					"attribute_class"	"mult_spread_scales_consecutive"
+					"value"			"1"
+				}
+				"fire rate penalty"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"			"1.25"
+				}
+				"hidden separator"
+				{
+					"attribute_class"	"hidden_separator"
+					"value"			"1"
+				}
+				"weapon spread bonus"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"			"0.2"
+				}
+				"mod horizontal spread"
+				{
+					"attribute_class"	"mod_horizontal_spread"
+					"value"			"1"
+				}
+				"punch angle mod mult hidden"
+				{
+					"attribute_class"	"punch_angle_mod"
+					"value"			"2"
+				}
+				"punch angle is constant"
+				{
+					"attribute_class"	"punch_angle_is_constant"
+					"value"			"1"
+				}
+			}
+			"visuals"
+			{
+				"sound_single_shot"		"Weapon_Apoc.Single"
+				"sound_burst"			"Weapon_Apoc.SingleCrit"
+			}
+			"mouse_pressed_sound"		"#ui/item_medium_gun_pickup.wav"
+			"drop_sound"				"#ui/item_medium_gun_drop.wav"
+		}
+		"30010"
+		{
+			"name"					"tf_weapon_mist_shot"
+			"item_class"				"tf_weapon_shotgun"
+			"item_slot"				"primary"
+			"show_in_armory"			"1"
+			"bots_cant_use"				"1"
+			"propername"				"1"												
+			"item_name_color"			"204 204 250 255"
+			"item_quality"				"unique"
+			"item_name"					"Mist Shot"
+			"item_type_name"			"Machine Gun"
+			"item_description"			"Conagher seeked out inspiration found in history..."
+			"item_logname"				"mistshot"
+			"item_iconname"				"mistshot"
+			"image_inventory"			"backpack/weapons/c_models/c_mistshot/c_mistshot"
+			"model_world"				"models/weapons/c_models/c_mistshot/c_mistshot.mdl"
+			"model_player"				"models/weapons/v_models/v_mistshot/v_mistshot.mdl"
+			"attach_to_hands"			"2"
+			"used_by_classes"
+			{
+				"engineer"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 0 -11"
+			}
+			"attributes"																				{
+				"compared to shotgun"
+				{
+					"attribute_class"	"compared_to_shotgun"
+					"value"			"1"
+				}
+				"damage bonus"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"			"3"
+				}
+				"fire rate bonus"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"			"0.3"
+				}
+				"weapon spread bonus"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"			"0.4"
+				}
+				"mist shot ammo"
+				{
+					"attribute_class"	"add_ammo_on_kill"
+					"value"			"32"
+				}
+				"mod ammo per shot"
+				{
+					"attribute_class"	"mod_ammo_per_shot"
+					"value"				"2"
+				}
+				"mod use metal ammo type"
+				{
+					"attribute_class"	"mod_use_metal_ammo_type"
+					"value"				"1"
+				}
+				"mod max primary clip override"
+				{
+					"attribute_class"	"mod_max_primary_clip_override"
+					"value"			"-1"
+				}
+				"bullets per shot penalty"
+				{
+					"attribute_class"	"mult_bullets_per_shot"
+					"value"			"0.1"
+				}
+				"hidden separator"
+				{
+					"attribute_class"	"hidden_separator"
+					"value"			"1"
+				}
+				"maxammo metal increased"
+				{
+					"attribute_class"	"mult_maxammo_metal"
+ 					"value"				"6.25" 
+				}
+				"punch angle mod mult hidden"
+				{
+					"attribute_class"	"punch_angle_mod"
+					"value"			"0.25"
+				}
+				"punch angle is constant"
+				{
+					"attribute_class"	"punch_angle_is_constant"
+					"value"			"1"
+				}
+			}
+			"visuals"
+			{
+				"sound_single_shot"		"Weapon_Mistshot.Single"
+				"sound_burst"			"Weapon_Mistshot.SingleCrit"
+			}
+			"mouse_pressed_sound"		"#ui/item_medium_gun_pickup.wav"
+			"drop_sound"				"#ui/item_medium_gun_drop.wav"
+		}
+		"30011"
+		{
+			"name"					"tf_weapon_stampede_shotgun"
+			"item_class"				"tf_weapon_shotgun"
+			"item_slot"				"primary"
+			"equip_region"				"arms"
+			"show_in_armory"			"1"
+			"bots_cant_use"				"1"
+			"propername"				"1"												
+			"item_name_color"			"204 204 250 255"
+			"item_quality"				"unique"
+			"item_name"					"Stampede Stamper"
+			"item_type_name"			"Shotgun"
+			"item_description"			"'My daddy taught me that if you want it done right, you gotta do it yourself.'"
+			"item_logname"				"stampededestroyer"
+			"item_iconname"				"stampededestroyer"
+			"image_inventory"			"backpack/weapons/c_models/c_stampededestroyer/c_stampededestroyer"
+			"model_world"				"models/weapons/c_models/c_stampededestroyer/c_stampededestroyer.mdl"
+			"model_player"				"models/weapons/v_models/v_stampededestroyer/v_stampededestroyer.mdl"
+			"attach_to_hands"			"2"
+			"used_by_classes"
+			{
+				"engineer"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 0 -11"
+			}
+			"attributes"																				{
+				"max health additive bonus"
+				{
+					"attribute_class"	"add_maxhealth"
+					"value"			"50"
+				}
+				"damage bonus"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"			"1.15"
+				}
+				"weapon spread bonus"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"			"0.8"
+				}
+				"no sentry"
+				{
+					"attribute_class"	"no_sentry"
+					"value"			"1"
+				}
+				"hidden separator"
+				{
+					"attribute_class"	"hidden_separator"
+					"value"			"1"
+				}
+				"mod sentrygun cost"
+				{
+					"attribute_class"	"mod_sentrygun_cost"
+					"value"			"999"
+				}
+				"punch angle mod mult hidden"
+				{
+					"attribute_class"	"punch_angle_mod"
+					"value"			"4"
+				}
+			}
+			"visuals"
+			{
+				"sound_single_shot"		"Weapon_Stampede.Single"
+				"sound_burst"			"Weapon_Stampede.SingleCrit"
+			}
+			"mouse_pressed_sound"		"#ui/item_medium_gun_pickup.wav"
+			"drop_sound"				"#ui/item_medium_gun_drop.wav"
+		}
+		"30012"
+		{
+			"name"					"tf_weapon_marine_shotgun"
+			"item_class"				"tf_weapon_shotgun"
+			"item_slot"				"secondary"
+			"show_in_armory"			"1"
+			"bots_cant_use"				"1"
+			"propername"				"1"												
+			"item_name_color"			"204 204 250 255"
+			"item_quality"				"unique"
+			"item_name"				"Close Encounter"
+			"item_type_name"			"Shotgun"
+			"item_description"			"'My daddy taught me that if you want it done right, you gotta do it yourself.'"
+			"item_logname"				"stampededestroyer"
+			"item_iconname"				"stampededestroyer"
+			"image_inventory"			"backpack/weapons/c_models/c_close_encounter/c_close_encounter"
+			"model_world"				"models/weapons/c_models/c_close_encounter/c_close_encounter.mdl"
+			"model_player"				"models/weapons/v_models/v_close_encounter/v_close_encounter.mdl"
+			"attach_to_hands"			"2"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 0 -11"
+			}
+			"attributes"																				{
+				"punch angle mod mult hidden"
+				{
+					"attribute_class"	"punch_angle_mod"
+					"value"			"7"
+				}
+				"crit on hard hit"
+				{
+					"attribute_class"	"crit_on_hard_hit"
+					"value"			"1"
+				}
+				"damage bonus"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"			"1.35"
+				}
+				"DISPLAY knockback enemies"
+				{
+					"attribute_class"	"display_knockback_enemies"
+					"value"			"1.0"
+				}
+
+				"maxammo primary reduced"
+				{
+					"attribute_class"	"mult_maxammo_primary"
+					"value"			"0.6"
+				}
+				"close_con"
+				{
+					"attribute_class"	"close_con"
+					"value"			"1"
+				}
+				"primary ammo from ammo packs penalty"
+				{
+					"attribute_class"	"mult_primary_ammo_from_ammo_packs"
+					"value"			"0.5"
+				}
+				"primary ammo from dropped weapons penalty"
+				{
+					"attribute_class"	"mult_primary_ammo_from_dropped_weapons"
+					"value"			"0.5"
+				}
+				"hidden separator"
+				{
+					"attribute_class"	"hidden_separator"
+					"value"			"1"
+				}
+				"halloween reload time decreased"													
+				{
+					"attribute_class"	"hwn_mult_reload_time"
+					"value"				"1.35"
+				}
+				"Reload time decreased"
+				{
+					"attribute_class"	"mult_reload_time"
+					"value"			"0.67"
+				}
+				"weapon enemy knockback mod mult hidden"
+				{
+					"attribute_class"	"weapon_enemy_knockback_mod"
+					"value"			"0.07"
+				}
+				"scattergun has knockback"
+				{
+					"attribute_class"	"set_scattergun_has_knockback"
+					"value"			"1"
+				}
+			}
+			"visuals"
+			{
+				"sound_single_shot"		"Weapon_Close_Encounter.Single"
+				"sound_burst"			"Weapon_Close_Encounter.SingleCrit"
+			}
+			"mouse_pressed_sound"		"#ui/item_medium_gun_pickup.wav"
+			"drop_sound"				"#ui/item_medium_gun_drop.wav"
+		}
+	}
+	"attributes"
+	{
+		"3500"
+		{
+			"name"			"bullets per shot penalty"
+			"attribute_class"	"mult_bullets_per_shot"
+			"description_string"	"%s1% bullets per shot"
+			"description_format"	"value_is_percentage"
+			"effect_type"		"negative"
+		}
+		"3501"
+		{
+			"name"			"DISPLAY knockback enemies"
+			"attribute_class"	"display_knockback_enemies"
+			"description_string"	"Knockback on enemies"
+			"description_format"	"value_is_additive"
+			"effect_type"		"positive"
+		}
+		"3502"
+		{
+			"name"			"DISPLAY close range damage bonus"
+			"attribute_class"	"display_close_range_damage_bonus"
+			"description_string"	"Close range damage bonus"
+			"description_format"	"value_is_additive"
+			"effect_type"		"positive"
+		}
+		"3503"
+		{
+			"name"			"DISPLAY anti commie"
+			"attribute_class"	"display_anti_commie"
+			"description_string"	"100% critical hits against communists"
+			"description_format"	"value_is_additive"
+			"effect_type"		"positive"
+		}
+		"3504"
+		{
+			"name"			"DISPLAY non crit damage"
+			"attribute_class"	"display_non_crit_damage"
+			"description_string"	"-25% non-critical damage"
+			"description_format"	"value_is_additive"
+			"effect_type"		"negative"
+		}
+		"3505"
+		{
+			"name"			"no djump"
+			"attribute_class"	"air_dash_count"
+			"description_string"	"Cannot double jump"
+			"description_format"	"value_is_additive"
+			"effect_type"		"negative"
+		}
+		"3506"
+		{
+			"name"			"med shot pro"
+			"attribute_class"	"med_shot_pro"
+			"description_string"	"Fires 5 damage dealing syringes that can heal teammates
+Gain 2% Ubercharge per syringe by hitting enemies
+Ubercharge gives guaranteed critical hits"
+			"description_format"	"value_is_additive"
+			"effect_type"		"positive"
+		}
+		"3507"
+		{
+			"name"			"med shot con"
+			"attribute_class"	"med_shot_con"
+			"description_string"	"Healing teammates does not build Uber"
+			"description_format"	"value_is_additive"
+			"effect_type"		"negative"
+		}
+		"3508"
+		{
+			"name"			"Reload time start add"
+			"attribute_class"	"mult_reload_time_start"
+			"description_string"	""
+			"description_format"	"value_is_additive"
+			"effect_type"		"negative"
+		}
+		"3509"
+		{
+			"name"			"Reload time refill add"
+			"attribute_class"	"mult_reload_time_refill"
+			"description_string"	""
+			"description_format"	"value_is_additive"
+			"effect_type"		"negative"
+		}
+		"3510"
+		{
+			"name"			"speed while active"
+			"attribute_class"	"mult_player_movespeed_active"
+			"description_string"	"%s1% faster move speed while active"
+			"description_format"	"value_is_additive"
+			"effect_type"		"positive"
+		}
+		"3511"
+		{
+			"name"			"airplane pro"
+			"attribute_class"	"minigun_jump_while_revved"
+			"description_string"	"Shooting propels you forward
+Can jump while revved"
+			"description_format"	"value_is_additive"
+			"effect_type"		"positive"
+		}
+		"3512"
+		{
+			"name"			"lakeside pro"
+			"attribute_class"	"set_detonate_mode"
+			"description_string"	"Grenades explode on contact with world"
+			"description_format"	"value_is_additive"
+			"effect_type"		"positive"
+		}
+		"3513"
+		{
+			"name"			"apoc pro"
+			"attribute_class"	"mult_falloff_distance"
+			"description_string"	"35% more accurate
+Very little vertical inaccuracy
+Longer damage falloff"
+			"description_format"	"value_is_additive"
+			"effect_type"		"positive"
+		}
+		"3514"
+		{
+			"name"			"apoc con"
+			"attribute_class"	"apoc_con"
+			"description_string"	"Successive shots become less accurate"
+			"description_format"	"value_is_additive"
+			"effect_type"		"negative"
+		}
+		"3515"
+		{
+			"name"			"compared to shotgun"
+			"attribute_class"	"compared_to_shotgun"
+			"description_string"	"Compared to stock shotgun:"
+			"description_format"	"value_is_additive"
+			"effect_type"		"neutral"
+		}
+		"3516"
+		{
+			"name"			"mist shot ammo"
+			"attribute_class"	"add_ammo_on_kill"
+			"description_string"	"+30 ammo on kill"
+			"description_format"	"value_is_additive"
+			"effect_type"		"positive"
+		}
+		"3517"
+		{
+			"name"			"no sentry"
+			"attribute_class"	"no_sentry"
+			"description_string"	"Cannot build a sentry gun"
+			"description_format"	"value_is_additive"
+			"effect_type"		"negative"
+		}
+		"3518"
+		{
+			"name"			"close_con"
+			"attribute_class"	"close_con"
+			"description_string"	"+25% longer reload time on primary weapon"
+			"description_format"	"value_is_additive"
+			"effect_type"		"negative"
+		}
+	}
+}
+
+//IDEAS AND INTERESTING STATS HERE
+//324 - "accuracy scales damage" (accuracy_scales_damage)
+//5060 - "add condition on kill" (add_onkill_addcond_self)
+//5040 - "self knockback affected by damage boost modifier" (self_knockback_damage_boost_modifier)	- FOR "apply_self_knockback" AND VARIANTS ONLY - if you have a //damage boost of some kind (civ boost, kritz), then scale your self-knockback accordingly. Very strong, but also very situational...
+//5041 - "apply self knockback" (apply_self_knockback)
+//5042 - "apply self knockback on swing" (apply_self_knockback_swing)			- Self-knockback for melees, allies when you "swing" your weapon! Snappy!
+//5036 - "add condition on hit self" (add_onhit_addcond_self)					- When you hit someone, add a condition onto yourself!
+//5037 - "add condition on hit weapon" (add_onhit_addcond_weapon)				- For addcond effects, only applies on the weapon itself that has said //addcond effect! Should be default behavior tbh...
+//5035 - "add condition on hit" (add_onhit_addcond)							- Adds an AddCond condition to the enemy when you hit 'em. //Format is the cond name or number and a duration in seconds, like "11 5" to add a 5s critboost. Note; it'll escape onto your other weapons if you don't restrict it!
+//5013 - "mod horizontal spread" (mod_horizontal_spread)						- Changes pellet "spread" to a straight, horizontal line //spreading out from your crosshair. Weird! Works on SOME rapidfire weapons - I know it works on Miniguns, amusingly!
+//"add give health to teammate on hit" (add_give_health_to_teammate_on_hit)	- On hitting a teammate with your melee, if they're injured you can heal them a //variable amount of hp back at the cost of the same amount of your own! This is a really, really nice stat!
+//"extra damage on hit penalty" (extra_damage_on_hit_penalty) 			- For TF_Weapon_Revolver; On-hit, add a damage bonus or penalty per shot! This //particular one removes some amount of progress every shot, regardless of if you hit anything. Also, you can get a visual indicator for it with "set_weapon_mode", for //some reason.
+//standard mann's standard issue issue solver
+//5118 - "dispenser can overheal on active" (dispenser_can_overheal_active)
+//5119 - "everything can overheal on wearer" (everything_can_overheal_wearer)
+//5135 - "hidden separator" (hidden_separator)								- An INTERESTING one!! This is a meta-attribute, it'll HIDE all
+//attributes that show up beneath it, generally in order. Useful for if you wanna hide lots of stats and / or don't wanna wrangle with making new ones for all of 'em. Do
+//note, if it appears in a static_attrs section, it'll hide anything in the attributes section, even if it's above it in the entry. The reverse is true as well.
+//5176 - "class select override slot" (class_select_override_slot)			- Input is a number corresponding to the slot you want, starting with 0 being
+//primary.
+//5224 - "lunchbox add condition on eat" (lunchbox_addcond)
+//5223 - "mult lunchbox throwable velocity" (mult_lunchbox_throwable_velocity)
+//5222 - "custom lunchbox throwable model" (custom_lunchbox_throwable_model)	- CUSTOM MODEL OVERRIDE FOR SANDVICHES!! Took long enough... HOWEVER, Lunchbox Throwables
+//aren't teamcolored yet!
+//5250 - "mod ubercharge cond" (mod_ubercharge_cond)							- ÜBERCHARGE CONDS!!! This is pretty simple, apply a variable
+//cond to both a teammate and yourself for the duration of a normal Übercharge, replacing the normal über. Works on both TF_Weapon_Medigun and TF2C_Weapon_HealLauncher!
+//5257 - "mod sustained fire accuracy" (mod_sustained_fire_accuracy)			- For weapons that fire rapidly (Miniguns, Pistols, SMGs, things like that),
+//modifies your accuracy after some time of holding down the fire button. Input takes 2 values, the first for the final spread multiplier to reach, and the second is
+//time in seconds to reach that mult. "0.5 3" would make your accuracy increase by 50% after 3s straight of firing. Resets on stopping for any reason.
+//5270 - "auto jumping" (auto_jumping)										- Enables hold-to-jump even when "tf2c_autojump" is
+//disabled!
+//5271 - "mult spread scales speed" (mult_spread_scales_speed)				- As you move faster horizontally, modifies your spread, up to an input ending
+//value! It seems to scale all the way up at the movement speed cap, 520 hU/s. No particular effects for vertical speeds, so it's quite hard to use this.
+//"name"	"extra damage on hit"
+//"attribute_class"	"extra_damage_on_hit"
+//???? - "airblast dashes" (airblast_dashes) 									- When airblasting, you'll get a moderately strong
+//forward-and-up push, that sends you in an arc forward from where you aim! However, you're unable to push enemies or deflect projectiles.
+//"health regen" (add_health_regen)
+//"metal regen" (add_metal_regen)										- Regen an input amount of metal every 5s.
+//"active health regen" (active_item_health_regen)
+//"apply z velocity on damage" (apply_z_velocity_on_damage)				- When you hit an enemy, apply a variable velocity in Hu/S to them in the Up-Down
+//direction! Positive values send upward, negative values send downward.
+//233 - "mod medic healed damage bonus" (medic_healed_damage_bonus)			- Gain a damage multiplier when being healed by a Medic. Only for guns!
+//234 - "mod medic healed deploy time penalty" (mod_medic_healed_deploy_time)	- A very strange attribute. When you aren't being healed by a Medic, your weapon deploy
+//speed is faster or slower.
+//"mod weapon blocks healing" (weapon_blocks_healing)
+//"mod rage damage boost" (rage_damage)									- On Soldier and Pyro only (???, more classes have rage-meters,
+//but okay?), applies a damage multiplier to your current weapon based on how much rage-meter you have built up, even if it's from a different item (like a Banner). Only
+//seems to work for what I'd call "normal guns" - doesn't work on melee, and doesn't work on more fringe stuff like the Flamethrower. O...kay?
+//"engy sentry damage bonus" (mult_engy_sentry_damage)
+//339 - "reveal cloaked victim on hit" (reveal_cloaked_victim_on_hit)			- The name doesn't make it clear, I believe these is supposed to forcefully
+//uncloak or undisguise a Spy who you hit. Whoever made this horrendous set of stats was really mad at Spy and Medic, apparently.
+//340 - "reveal disguised victim on hit" (reveal_disguised_victim_on_hit)
+//344 - "engy sentry radius increased" (mult_sentry_range)
+//345 - "engy dispenser radius increased" (mult_dispenser_radius)
+//353 - "cannot pick up buildings" (cannot_pick_up_buildings)
+//364 - "add jingle to footsteps" (add_jingle_to_footsteps)					- I got spurs, that jingle-jangle-jingle (Jingle-jangle!)		
+//613 - "minicritboost on kill" (add_onkill_minicritboost_time)
+//852 - "mult_dmgtaken_active" (mult_dmgtaken_active)
+//"aoe heal chance" (aoe_heal_chance) 									- On hitting an enemy, has a x/60 chance (times your weapon's
+//fire-rate) to gain Amputator AoE radius-healing for 1s. 60 generally works to make this 100% on 1s firerate weapons, and 600 works for 0.1s firerate.
+//"extra damage on hit" (extra_damage_on_hit)	
+

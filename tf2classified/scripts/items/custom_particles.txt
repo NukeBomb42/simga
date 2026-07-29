@@ -1,0 +1,17 @@
+particles_manifest
+{
+// Catch-all if you just wanna add your own stuff quickly! Above everything else to take priority. Make + use one of these if you want to add your own sound-scripts; all 5 are unused.
+	"file"  	"particles/custom_particles.pcf"
+	"file"  	"particles/custom_particles_2.pcf"
+	"file"  	"particles/custom_particles_3.pcf"
+	"file"  	"particles/custom_particles_4.pcf"
+	"file"  	"particles/custom_particles_5.pcf"
+
+// NOWP - Split into parts since each .pcf seems to have a max file-size of 1 MB before crashing the game on load....
+	"file"  	"!particles/nowp_wpnfx.pcf"				// New-Old Weapons Pack's Particles. NEEDS to be Global Precache or else some particles don't load ever (?????).
+	"file"  	"!particles/nowp_drg_cm5k.pcf"			// New-Old Weapons Pack's Particles (Cow Mangler 5000). Yes, a file for a single weapon. This has way too many particles...
+	"file"  	"!particles/nowp_drg_4thlaw.pcf"		// New-Old Weapons Pack's Particles (Al Coholic's 4th Law)
+	"file"  	"!particles/nowp_pso_techs.pcf"			// New-Old Weapons Pack's Particles (PSO2 Techs)
+	"file"  	"!particles/nowp_flamethrower.pcf"		// New-Old Weapons Pack's Particles (Flamethrowers)
+	"file"  	"!particles/nowp_medigun.pcf"			// New-Old Weapons Pack's Particles (Mediguns)
+}

@@ -1,0 +1,35 @@
+//
+// Hi! There's no actual weapons in this file, check the OTHER files this points to!
+//
+// Basically, TF2 Classified loads this file, "custom_items_game.txt", when you join any map (NOT the Main menu!) - you can use it to load custom items fine as-is, but if you have a more complicated project, things will get messy fast!
+// This file basically acts like a hub to load various other files first. Almost every items mod already needs to load the default "items_game.txt" in this way anyhow, so this is really just an extension of that!
+// Edit this file to your liking, but be aware it may change periodically as this mod gets updated. Happy modding!
+//
+// For New-Old Weapons Pack specifically, this includes hooks for weaponry at the bottom, so you can load content above it or replacing it using another file (PLEASE do that, the mod updates often, so your changes to it might get wiped otherwise!)
+// Additionally, there's a few items from weaponry that are split into individual files, for technical reasons mostly! I plan to greatly expand this section later, especially as Classified works on its Workshop Addon support. Stay tuned!
+//
+//------------------------------------------------------------------------------------------------------------------------------------------------------
+// Default TF2C Items + Stats						| IMPORTANT STUFF!!! Don't remove this, this is generally needed for the game to even boot and not instantly crash. Has default info for all sorts of weapons, existing stats, and more.
+//------------------------------------------------------------------------------------------------------------------------------------------------------
+#base "items_game.txt"								// TF2 Classified's Schema (Weapons, Prefabs, Attributes, etc.)
+#base "tf2c_unlisted_attributes.txt"				// TF2 + TF2C Re-added Unlisted Stats (Attributes) - Occasionally updated with weaponry, different mods may use different versions of this.
+
+//------------------------------------------------------------------------------------------------------------------------------------------------------
+// User-Created Weapons								| Section for Custom Weapons / Items by the Community! Each CW's mod may have its own requirements for loading, like prefabs or attributes from other files. Be careful adding or removing content unless you're absolutely sure you have everything needed!
+//------------------------------------------------------------------------------------------------------------------------------------------------------
+// Hey! Wanna add your own items? A super-easy way to do that is to copy one of the "#base" hooks and make it point to a new text file... then just throw your items into that file! Super easy, and won't break immediately when the game updates!
+
+// Other Custom Weapons - Add hooks here by making a new text file, it'll load separately!
+
+//------------------------------------------------------------------------------------------------------------------------------------------------------
+// New-Old Weapons Pack							 	| Assorted content for New-Old Weapons Pack! May be further revised with changes to TF2C's Addons system.
+//------------------------------------------------------------------------------------------------------------------------------------------------------
+#base "weaponry/newoldweaponspack_shared.txt"			// New-Old Weapons Pack Shared Definitions (Prefabs, Attributes)
+#base "weaponry/meinmeinmein.txt"
+#base "weaponry/mannlymunitions.txt"
+#base "weaponry/newoldweaponspack.txt"					// New-Old Weapons Pack! (Weapons, Prefabs, Attributes, etc.) - MOD UPDATES OFTEN, DO NOT EDIT DIRECTLY!! You could lose your changes!
+
+// Individual Weapons - These are split because they won't work properly without some core-files / on servers. WILL BE EXPANDED FOR WORKSHOP ADDON SUPPORT!!
+#base "weaponry/update3/drg_eureka.txt"					// [Old] Eureka Effect
+#base "weaponry/update5/bonk.txt"						// [Old] Bonk! Atomic Punch
+#base "weaponry/update12/critacola.txt"					// [Old] Crit-a-Cola
